@@ -7,6 +7,11 @@ public class Dog extends Animal {
         System.out.println("Dog is living");
     }
 
+    // final void isCrying() { 
+    //     System.out.println("Animal is crying");
+    // }
+    /* compiler error: 
+    Cannot override the final method from Animal */
     public static void main(String[] args) {
 
         System.out.println();

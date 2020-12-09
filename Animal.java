@@ -7,6 +7,10 @@ public class Animal {
         System.out.println("Animal is living");
     }
 
+    final void isCrying() {
+        System.out.println("Animal is crying");
+    }
+
 
     public static void main(String[] args) {
 
@@ -17,6 +21,7 @@ public class Animal {
         Animal animal = new Dog();
         animal.makeSound(); /* output: sound of animal */
         animal.isLiving(); /* output: Animal is Living */
+        animal.isCrying(); /* output: Animal is crying */
 
         Dog dog = new Dog();
         dog.makeSound(); /* output: sound of Dog */
